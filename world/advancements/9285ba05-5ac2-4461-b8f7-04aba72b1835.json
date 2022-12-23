@@ -1,0 +1,26 @@
+{
+  "exoticbirds:eb/root": {
+    "criteria": {
+      "trigger_1": "2022-12-22 20:10:04 +0100"
+    },
+    "done": true
+  },
+  "astralsorcery:root": {
+    "criteria": {
+      "astralsorcery_present": "2022-12-22 20:10:04 +0100"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "boreal_forest": "2022-12-22 20:10:04 +0100"
+    },
+    "done": false
+  },
+  "fossil:fossil/root": {
+    "criteria": {
+      "tick": "2022-12-22 20:10:04 +0100"
+    },
+    "done": true
+  }
+}

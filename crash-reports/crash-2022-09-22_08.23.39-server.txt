@@ -1,0 +1,136 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  AstralCore (astralsorcery-1.12.2-1.10.27.jar)
+  SecurityCraftLoadingPlugin ([1.12.2]+SecurityCraft+v1.9.4.jar)
+  AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-2.0.0-13.jar)
+Contact their authors BEFORE contacting forge
+
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 22/09/22 8:23
+Description: Exception in server tick loop
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from IndustrialCraft 2 (ic2)
+Caused by: ic2.core.util.Config$ParseException: generic parse error at line 470 ("PSP|PSP|PSP" P:OreDict:plateSteel S:OreDict:ingotSteel = ic2:crafting#steel_rotor_blade).
+	at ic2.core.init.Rezepte.loadCraftingRecipe(Rezepte.java:347)
+	at ic2.core.init.Rezepte.loadCraftingRecipes(Rezepte.java:174)
+	at ic2.core.init.Rezepte.loadRecipes(Rezepte.java:118)
+	at ic2.core.init.Rezepte.registerRecipes(Rezepte.java:767)
+	at ic2.core.IC2.load(IC2.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:600)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:103)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:337)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:169)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at ic2.core.recipe.RecipeInputOreDict.equals(RecipeInputOreDict.java:101)
+	at java.util.WeakHashMap.eq(WeakHashMap.java:287)
+	at java.util.WeakHashMap.put(WeakHashMap.java:454)
+	at java.util.Collections$SetFromMap.add(Collections.java:5515)
+	at net.minecraft.item.crafting.Ingredient.<init>(Ingredient.java:51)
+	at net.minecraft.item.crafting.Ingredient.<init>(Ingredient.java:30)
+	at ic2.core.recipe.RecipeInputBase.<init>(RecipeInputBase.java:30)
+	at ic2.core.recipe.RecipeInputOreDict.<init>(RecipeInputOreDict.java:25)
+	at ic2.core.recipe.RecipeInputOreDict.<init>(RecipeInputOreDict.java:22)
+	at ic2.core.recipe.RecipeInputFactory.forOreDict(RecipeInputFactory.java:52)
+	at ic2.core.util.ConfigUtil.asRecipeInput(ConfigUtil.java:292)
+	at ic2.core.util.ConfigUtil.asRecipeInput(ConfigUtil.java:306)
+	at ic2.core.init.Rezepte.loadCraftingRecipe(Rezepte.java:296)
+	... 39 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Magma Version: 1.12.2-165ec152
+	Operating System: Linux (aarch64) version 5.15.61-v8+
+	Java Version: 1.8.0_252, AdoptOpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
+	Memory: 888916576 bytes (847 MB) / 1181745152 bytes (1127 MB) up to 3817865216 bytes (3641 MB)
+	JVM Flags: 1 total; -Xmx4096m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 31 mods loaded, 30 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                   | Version          | Source                                        | Signature                                |
+	|:----- |:-------------------- |:---------------- |:--------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft            | 1.12.2           | minecraft.jar                                 | None                                     |
+	| LCH   | mcp                  | 9.42             | minecraft.jar                                 | None                                     |
+	| LCH   | FML                  | 8.0.99.99        | Magma-1.12.2-165ec152.jar                     | None                                     |
+	| LCH   | forge                | 14.23.5.2860     | Magma-1.12.2-165ec152.jar                     | None                                     |
+	| LCH   | securitycraft        | v1.9.4           | [1.12.2]+SecurityCraft+v1.9.4.jar             | None                                     |
+	| LCH   | deconstruction       | 3.0.4            | [MC1.12.2]DeconTable-3.0.4.jar                | None                                     |
+	| LCE   | ic2                  | 2.8.222-ex112    | industrialcraft-2-2.8.222-ex112.jar           | de041f9f6187debbc77034a344134053277aa3b0 |
+	| LC    | libvulpes            | 0.4.2.-25        | LibVulpes-1.12.2-0.4.2-25-universal.jar       | None                                     |
+	| LC    | advancedrocketry     | 1.12.2-2.0.0-13  | AdvancedRocketry-1.12.2-2.0.0-13.jar          | None                                     |
+	| LC    | baubles              | 1.5.2            | Baubles-1.12-1.5.2.jar                        | None                                     |
+	| LC    | astralsorcery        | 1.10.27          | astralsorcery-1.12.2-1.10.27.jar              | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+	| LC    | betternether         | 0.1.8.6          | betternether-0.1.8.6.jar                      | None                                     |
+	| LC    | biomesoplenty        | 7.0.1.2445       | BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar | None                                     |
+	| LC    | bookshelf            | 2.3.590          | Bookshelf-1.12.2-2.3.590.jar                  | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LC    | jei                  | 4.16.1.302       | jei_1.12.2-4.16.1.302.jar                     | None                                     |
+	| LC    | botania              | r1.10-364        | Botania+r1.10-364.4.jar                       | None                                     |
+	| LC    | chameleon            | 1.12-4.1.3       | Chameleon-1.12-4.1.3.jar                      | None                                     |
+	| LC    | elevatorid           | 1.3.14           | ElevatorMod-1.12.2-1.3.14.jar                 | None                                     |
+	| LC    | exoticbirds          | 1.0              | Exotic+Birds+1.12.2-3.2.0.jar                 | None                                     |
+	| LC    | llibrary             | 1.7.20           | llibrary-1.7.20-1.12.2.jar                    | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+	| LC    | fossil               | 8.0.5            | fossilsarcheology-8.0.6.jar                   | None                                     |
+	| LC    | ironbackpacks        | 1.12.2-3.0.8-12  | IronBackpacks-1.12.2-3.0.8-12.jar             | None                                     |
+	| LC    | journeymap           | 1.12.2-5.7.1     | journeymap-1.12.2-5.7.1.jar                   | None                                     |
+	| LC    | ordinarycoins        | 1.5              | ordinarycoins-1.12.2-1.5.jar                  | None                                     |
+	| LC    | xreliquary           | 1.12.2-1.3.4.796 | Reliquary-1.12.2-1.3.4.796.jar                | None                                     |
+	| LC    | rustic               | 1.1.7            | rustic-1.1.7.jar                              | None                                     |
+	| LC    | storagedrawers       | 1.12.2-5.4.0     | StorageDrawers-1.12.2-5.4.0.jar               | None                                     |
+	| LC    | toolbelt             | 1.9.14           | ToolBelt-1.12.2-1.9.14.jar                    | None                                     |
+	| LC    | waystones            | 4.1.0            | Waystones_1.12.2-4.1.0.jar                    | None                                     |
+	| LC    | worldedit            | 6.1.10           | worldedit-forge-mc1.12.2-6.1.10-dist.jar      | None                                     |
+	| UD    | advancedrocketrycore | 1                | minecraft.jar                                 | None                                     |
+
+	Loaded coremods (and transformers): 
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+AstralCore (astralsorcery-1.12.2-1.10.27.jar)
+  
+SecurityCraftLoadingPlugin ([1.12.2]+SecurityCraft+v1.9.4.jar)
+  
+AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-2.0.0-13.jar)
+  zmaster587.advancedRocketry.asm.ClassTransformer
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'Magma'
+	Type: Dedicated Server (map_server.txt)

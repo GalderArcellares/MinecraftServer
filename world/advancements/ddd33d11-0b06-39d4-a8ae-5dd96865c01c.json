@@ -1,0 +1,375 @@
+{
+  "biomesoplenty:recipes/transportation/boat_mahogany": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "zombie": "2022-09-23 10:16:20 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/crafting_table_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "astralsorcery:root": {
+    "criteria": {
+      "astralsorcery_present": "2022-09-22 11:07:42 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "oasis": "2022-09-22 19:45:46 +0200",
+      "shrubland": "2022-09-22 11:12:05 +0200",
+      "chaparral": "2022-09-22 19:49:18 +0200",
+      "cold_desert": "2022-09-22 11:11:38 +0200",
+      "coral_reef": "2022-09-22 19:44:53 +0200",
+      "coniferous_forest": "2022-09-23 10:53:50 +0200",
+      "wasteland": "2022-09-22 11:13:04 +0200",
+      "boreal_forest": "2022-09-22 11:07:41 +0200",
+      "seasonal_forest": "2022-09-22 19:50:17 +0200",
+      "kelp_forest": "2022-09-22 19:49:05 +0200",
+      "snowy_coniferous_forest": "2022-09-22 22:27:17 +0200",
+      "tundra": "2022-09-22 22:27:41 +0200",
+      "gravel_beach": "2022-09-22 19:49:58 +0200",
+      "brushland": "2022-09-22 11:12:37 +0200"
+    },
+    "done": false
+  },
+  "biomesoplenty:recipes/redstone/trapdoor_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/sign_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_bed": {
+    "criteria": {
+      "has_magenta_wool": "2022-09-23 11:31:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "ice_flats": "2022-09-22 11:08:43 +0200",
+      "deep_ocean": "2022-09-22 19:44:47 +0200",
+      "beaches": "2022-09-22 19:44:41 +0200",
+      "desert_hills": "2022-09-22 19:45:43 +0200",
+      "savanna": "2022-09-22 19:47:50 +0200",
+      "ice_mountains": "2022-09-22 11:09:58 +0200",
+      "taiga": "2022-09-22 22:29:17 +0200",
+      "ocean": "2022-09-22 19:44:44 +0200",
+      "extreme_hills": "2022-09-22 21:16:40 +0200",
+      "river": "2022-09-22 11:12:12 +0200",
+      "desert": "2022-09-22 11:12:55 +0200",
+      "stone_beach": "2022-09-22 21:16:38 +0200"
+    },
+    "done": false
+  },
+  "biomesoplenty:recipes/transportation/boat_fir": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapdoor": {
+    "criteria": {
+      "has_planks": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-09-23 10:15:47 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_willow": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2022-09-23 11:31:27 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_sacred_oak": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_banner": {
+    "criteria": {
+      "has_magenta_wool": "2022-09-23 11:31:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_pine": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_redwood": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2022-09-22 21:08:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2022-09-22 21:08:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-09-23 10:16:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sign": {
+    "criteria": {
+      "has_planks": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/wooden_pressure_plate_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_button": {
+    "criteria": {
+      "has_planks": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_ethereal": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_cherry": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2022-09-23 10:59:59 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_jacaranda": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_umbran": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "skeleton": "2022-09-23 10:16:29 +0200",
+      "zombie": "2022-09-23 10:16:20 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/fence": {
+    "criteria": {
+      "has_planks": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_stone": "2022-09-23 00:00:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stonebrick": {
+    "criteria": {
+      "has_stone": "2022-09-22 21:08:57 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/wooden_button_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2022-09-23 10:17:24 +0200"
+    },
+    "done": true
+  },
+  "fossil:fossil/root": {
+    "criteria": {
+      "tick": "2022-09-22 11:07:42 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_magic": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_ebony": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_hellbark": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/fence_gate": {
+    "criteria": {
+      "has_planks": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_mangrove": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "exoticbirds:eb/root": {
+    "criteria": {
+      "trigger_1": "2022-09-22 11:07:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2022-09-22 21:08:57 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_palm": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_carpet": {
+    "criteria": {
+      "has_magenta_wool": "2022-09-23 11:31:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_door": {
+    "criteria": {
+      "has_planks": "2022-09-23 11:02:38 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_eucalyptus": {
+    "criteria": {
+      "entered_water": "2022-09-22 19:44:58 +0200"
+    },
+    "done": true
+  }
+}
