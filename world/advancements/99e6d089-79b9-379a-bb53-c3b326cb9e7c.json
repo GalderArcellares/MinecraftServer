@@ -287,6 +287,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2022-12-25 10:21:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
       "has_beetroot": "2022-09-23 11:26:17 +0200"
@@ -362,6 +368,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_beef": "2022-12-24 17:33:26 +0100",
+      "baked_potato": "2022-12-25 22:40:40 +0100",
       "potato": "2022-12-23 17:03:07 +0100",
       "bread": "2022-12-24 11:09:17 +0100",
       "rotten_flesh": "2022-12-24 15:12:55 +0100",
@@ -591,6 +598,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_double_plant": "2022-12-25 12:35:27 +0100"
+    },
+    "done": true
+  },
   "botania:challenge/root": {
     "criteria": {
       "flower": "2022-09-23 11:32:15 +0200"
@@ -769,6 +782,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2022-12-25 19:15:23 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal": {
     "criteria": {
       "has_black_dye": "2022-09-23 11:08:19 +0200"
@@ -829,6 +848,12 @@
     },
     "done": true
   },
+  "botania:main/cacophonium_craft": {
+    "criteria": {
+      "cacophonium": "2022-12-25 18:59:21 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-12-24 10:12:52 +0100"
@@ -883,6 +908,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2022-12-25 11:06:12 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_stained_glass_pane": {
     "criteria": {
       "has_glass": "2022-12-24 13:27:11 +0100"
@@ -921,6 +952,12 @@
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2022-12-26 00:50:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_at_least_9_redstone": "2022-12-23 17:43:30 +0100"
@@ -930,6 +967,12 @@
   "advancedrocketry:normal/root": {
     "criteria": {
       "crafting_table": "2022-09-23 11:12:20 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/peridot": {
+    "criteria": {
+      "has_the_recipe": "2022-12-26 00:54:34 +0100"
     },
     "done": true
   },
@@ -978,6 +1021,12 @@
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2022-12-24 13:27:11 +0100"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/buildingblocks/mud": {
+    "criteria": {
+      "has_item": "2022-12-25 23:01:10 +0100"
     },
     "done": true
   },
@@ -1259,6 +1308,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2022-12-25 10:21:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_at_least_9_coal": "2022-12-23 17:13:48 +0100"
@@ -1403,6 +1458,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2022-12-25 11:06:12 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2022-12-23 17:10:08 +0100"
@@ -1526,6 +1587,18 @@
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_the_recipe": "2022-12-23 17:13:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2022-12-25 19:15:23 +0100"
+    },
+    "done": true
+  },
+  "fossil:fossil/failuresaurus": {
+    "criteria": {
+      "flesh": "2022-12-25 11:03:36 +0100"
     },
     "done": true
   },
@@ -1701,6 +1774,12 @@
   "minecraft:recipes/building_blocks/brown_stained_glass": {
     "criteria": {
       "has_glass": "2022-12-24 13:27:11 +0100"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/buildingblocks/peridot_block": {
+    "criteria": {
+      "has_at_least_9_gems": "2022-12-26 00:54:34 +0100"
     },
     "done": true
   },

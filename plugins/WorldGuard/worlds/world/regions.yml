@@ -10,29 +10,47 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    marina:
+        min: {x: -67.0, y: 62.0, z: -1457.0}
+        max: {x: -45.0, y: 67.0, z: -1436.0}
+        members: {}
+        flags: {mob-spawning: deny}
+        owners:
+            unique-ids: [c20322f9-9009-3128-b130-3d1051105559]
+        type: cuboid
+        priority: 0
     spawn:
         min: {x: -110.0, y: 35.0, z: -1541.0}
         max: {x: 26.0, y: 102.0, z: -1433.0}
         members: {}
-        flags: {use: allow, interact: allow, pvp: deny, chest-access: allow, mob-spawning: deny}
+        flags: {use: allow, interact: allow, chest-access: allow, pvp: deny, mob-spawning: deny}
         owners:
-            unique-ids: [f680df9b-ac5c-4d3f-9bac-75bc0e316afa]
+            unique-ids: [f680df9b-ac5c-4d3f-9bac-75bc0e316afa, 8da7a7dc-e2e0-3b83-8c1f-869494ea046b]
         type: cuboid
         priority: -1
     galder:
         min: {x: -71.0, y: 63.0, z: -1527.0}
         max: {x: -45.0, y: 68.0, z: -1509.0}
         members: {}
-        flags: {}
+        flags: {enderpearl: deny}
         owners:
             unique-ids: [ddd33d11-0b06-39d4-a8ae-5dd96865c01c]
         type: cuboid
         priority: 0
+    aguila:
+        min: {x: -45.0, y: 62.0, z: -1457.0}
+        max: {x: -23.0, y: 70.0, z: -1436.0}
+        members: {}
+        flags: {}
+        owners:
+            unique-ids: [95bdbbf4-bcf6-3d2a-abe5-b980045b7aab]
+        type: cuboid
+        priority: 0
     matute:
-        min: {x: -15.0, y: 63.0, z: -1486.0}
+        min: {x: -15.0, y: 62.0, z: -1486.0}
         max: {x: 14.0, y: 67.0, z: -1465.0}
         members: {}
-        flags: {chest-access: allow}
+        flags: {}
         owners:
             unique-ids: [8da7a7dc-e2e0-3b83-8c1f-869494ea046b]
         type: cuboid
@@ -55,15 +73,6 @@ regions:
             unique-ids: [a29537fa-f252-31df-87ea-557710d4083a]
         type: cuboid
         priority: 0
-    rafa:
-        min: {x: -44.0, y: 63.0, z: -1528.0}
-        max: {x: -22.0, y: 67.0, z: -1509.0}
-        members: {}
-        flags: {use: allow, interact: allow, pvp: deny, chest-access: allow}
-        owners:
-            unique-ids: [99e6d089-79b9-379a-bb53-c3b326cb9e7c]
-        type: cuboid
-        priority: 0
     rubi:
         min: {x: -15.0, y: 63.0, z: -1457.0}
         max: {x: 14.0, y: 68.0, z: -1436.0}
@@ -71,5 +80,14 @@ regions:
         flags: {chest-access: allow}
         owners:
             unique-ids: [6ccdfe23-eaa0-3bdd-aea3-ea5dc8573235]
+        type: cuboid
+        priority: 0
+    rafa:
+        min: {x: -44.0, y: 58.0, z: -1528.0}
+        max: {x: -22.0, y: 67.0, z: -1509.0}
+        members: {}
+        flags: {}
+        owners:
+            unique-ids: [99e6d089-79b9-379a-bb53-c3b326cb9e7c]
         type: cuboid
         priority: 0
